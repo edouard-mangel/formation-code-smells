@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a0418f92-68ea-4091-bc49-d5f9652bbfa7": {
+      "ProjectGuid": "a0418f92-68ea-4091-bc49-d5f9652bbfa7",
+      "DisplayName": "MorpionApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
