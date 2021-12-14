@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace MorpionApp
 {
-    public class Jeu
+    public class Morpion
     {
         public bool quiterJeu = false;
         public bool tourDuJoueur = true;
         public char[,] grille;
 
-        public Jeu()
+        public Morpion()
         {
             grille = new char[3, 3];
         }

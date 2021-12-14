@@ -63,8 +63,6 @@ namespace MorpionApp
                     {
                         case ConsoleKey.Enter:
                             break;
-                        case ConsoleKey.P:
-                           
                         case ConsoleKey.Escape:
                             quiterJeu = true;
                             Console.Clear();
@@ -151,6 +149,11 @@ namespace MorpionApp
                         }
                         while (grille[row, column] is 'X' or 'O')
                         {
+                            if (row == 0)
+                            {
+                                break;
+                            }
+
                             row = row - 1;
                         }
                         if(grille[row, column] is ' ')
@@ -239,6 +242,11 @@ namespace MorpionApp
                         }
                         while (grille[row, column] is 'X' or 'O')
                         {
+                            if(row == 0)
+                            {
+                                break;
+                            }
+
                             row = row - 1;
                         }
                         if (grille[row, column] is ' ')
