@@ -11,8 +11,22 @@ namespace MorpionApp
         static void Main(string[] args)
         {
             Jeu jeu = new Jeu();
-            jeu.affichePlateau();
-            jeu.tourJoueur();
+
+            PuissanceQuatre puissanceQuatre = new PuissanceQuatre();
+
+            Console.WriteLine("Jouer à quel jeu ? Taper [X] pour le morpion et [P] pour le puissance 4.");
+            GetKey:
+            switch (Console.ReadKey(true).Key)
+            {
+                case ConsoleKey.X:
+                    jeu.BoucleJeu();
+                    break;
+                case ConsoleKey.P:
+                    puissanceQuatre.BoucleJeu();
+                    break;
+                default:
+                    goto GetKey;
+            }
         }        
     }
 }

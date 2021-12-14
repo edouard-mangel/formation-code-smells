@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\TP Morpion\\MorpionApp\\MorpionApp.csproj": {}
+    "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\Projet-Morpion\\MorpionApp\\MorpionApp.csproj": {}
   },
   "projects": {
-    "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\TP Morpion\\MorpionApp\\MorpionApp.csproj": {
+    "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\Projet-Morpion\\MorpionApp\\MorpionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\TP Morpion\\MorpionApp\\MorpionApp.csproj",
+        "projectUniqueName": "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\Projet-Morpion\\MorpionApp\\MorpionApp.csproj",
         "projectName": "MorpionApp",
-        "projectPath": "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\TP Morpion\\MorpionApp\\MorpionApp.csproj",
+        "projectPath": "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\Projet-Morpion\\MorpionApp\\MorpionApp.csproj",
         "packagesPath": "C:\\Users\\abelf\\.nuget\\packages\\",
-        "outputPath": "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\TP Morpion\\MorpionApp\\obj\\",
+        "outputPath": "D:\\Cours\\Licence Info CNAM\\UTC503 - Paradigme de programation\\Projet-Morpion\\MorpionApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
