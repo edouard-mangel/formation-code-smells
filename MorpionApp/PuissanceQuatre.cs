@@ -119,29 +119,41 @@ namespace MorpionApp
                         }
                         break;
 
-                    case ConsoleKey.UpArrow:
-                        if (row <= 0)
+                    //case ConsoleKey.UpArrow:
+                    //    if (row <= 0)
+                    //    {
+                    //        row = 3;
+                    //    }
+                    //    else
+                    //    {
+                    //        row = row - 1;
+                    //    }
+                    //    break;
+
+                    //case ConsoleKey.DownArrow:
+                    //    if (row >= 3)
+                    //    {
+                    //        row = 0;
+                    //    }
+                    //    else
+                    //    {
+                    //        row = row + 1;
+                    //    }
+                    //    break;
+                    case ConsoleKey.Enter:
+                        while (row <= 3)
                         {
-                            row = 3;
+                            row = row + 1;
+                            if (row >= 3)
+                            {
+                                break;
+                            }
                         }
-                        else
+                        while (grille[row, column] is 'X' or 'O')
                         {
                             row = row - 1;
                         }
-                        break;
-
-                    case ConsoleKey.DownArrow:
-                        if (row >= 3)
-                        {
-                            row = 0;
-                        }
-                        else
-                        {
-                            row = row + 1;
-                        }
-                        break;
-                    case ConsoleKey.Enter:
-                        if (grille[row, column] is ' ')
+                        if(grille[row, column] is ' ')
                         {
                             grille[row, column] = 'X';
                             moved = true;
@@ -195,28 +207,40 @@ namespace MorpionApp
                         }
                         break;
 
-                    case ConsoleKey.UpArrow:
-                        if (row <= 0)
+                    //case ConsoleKey.UpArrow:
+                    //    if (row <= 0)
+                    //    {
+                    //        row = 3;
+                    //    }
+                    //    else
+                    //    {
+                    //        row = row - 1;
+                    //    }
+                    //    break;
+
+                    //case ConsoleKey.DownArrow:
+                    //    if (row >= 3)
+                    //    {
+                    //        row = 0;
+                    //    }
+                    //    else
+                    //    {
+                    //        row = row + 1;
+                    //    }
+                    //    break;
+                    case ConsoleKey.Enter:
+                        while (row <= 3)
                         {
-                            row = 3;
+                            row = row + 1;
+                            if (row >= 3)
+                            {
+                                break;
+                            }
                         }
-                        else
+                        while (grille[row, column] is 'X' or 'O')
                         {
                             row = row - 1;
                         }
-                        break;
-
-                    case ConsoleKey.DownArrow:
-                        if (row >= 3)
-                        {
-                            row = 0;
-                        }
-                        else
-                        {
-                            row = row + 1;
-                        }
-                        break;
-                    case ConsoleKey.Enter:
                         if (grille[row, column] is ' ')
                         {
                             grille[row, column] = 'O';
